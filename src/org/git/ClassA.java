@@ -4,6 +4,12 @@ public class ClassA {
 	
 	private void employeeId() {
 		System.out.println(" employee id : 001");
+		
+
+	}
+	
+	private void employeeName() {
+		System.out.println(" employee name : saranyadevi");
 
 	}
 	
@@ -11,6 +17,9 @@ public class ClassA {
 		
 		ClassA c = new ClassA();
 		c.employeeId();
+		c.employeeName();
+		c.employeeName();
+		
 		
 		
 	}
